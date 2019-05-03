@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.471 sec <<< FAILURE!
-MatryxsoftWebsite2(com.matryxsoft.website.matryxsoft.helloworld)  Time elapsed: 0.021 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.524 sec <<< FAILURE!
+MatryxsoftWebsite2(com.matryxsoft.website.matryxsoft.helloworld)  Time elapsed: 0.006 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
