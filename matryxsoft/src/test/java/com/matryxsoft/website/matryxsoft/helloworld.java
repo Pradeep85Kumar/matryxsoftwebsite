@@ -10,14 +10,14 @@ public class helloworld {
   public void MatryxsoftWebsite() 
   {
 	  System.out.println ("Hello Matryxsoft");
-	 //Assert.assertTrue(true);
+	 Assert.assertTrue(true);
   }
   
   @Test
   public void MatryxsoftWebsite2() 
   {
 	  System.out.println ("Hello Matryxsoft");
-	 //Assert.assertTrue(false);
+	 Assert.assertTrue(false);
   }
   
 }
