@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="210" started-at="2019-05-03T05:09:58Z" finished-at="2019-05-03T05:09:58Z">
+  <suite name="Suite" duration-ms="69" started-at="2019-05-03T06:26:02Z" finished-at="2019-05-03T06:26:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="210" started-at="2019-05-03T05:09:58Z" finished-at="2019-05-03T05:09:58Z">
+    <test name="Test" duration-ms="69" started-at="2019-05-03T06:26:02Z" finished-at="2019-05-03T06:26:02Z">
       <class name="com.matryxsoft.website.matryxsoft.helloworld">
-        <test-method status="PASS" signature="MatryxsoftWebsite()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@49e4cb85]" name="MatryxsoftWebsite" duration-ms="8" started-at="2019-05-03T10:39:58Z" finished-at="2019-05-03T10:39:58Z">
+        <test-method status="PASS" signature="MatryxsoftWebsite()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@49e4cb85]" name="MatryxsoftWebsite" duration-ms="12" started-at="2019-05-03T11:56:02Z" finished-at="2019-05-03T11:56:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MatryxsoftWebsite -->
-        <test-method status="FAIL" signature="MatryxsoftWebsite2()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@49e4cb85]" name="MatryxsoftWebsite2" duration-ms="1" started-at="2019-05-03T10:39:58Z" finished-at="2019-05-03T10:39:58Z">
+        <test-method status="FAIL" signature="MatryxsoftWebsite2()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@49e4cb85]" name="MatryxsoftWebsite2" duration-ms="1" started-at="2019-05-03T11:56:02Z" finished-at="2019-05-03T11:56:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
