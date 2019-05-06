@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="parallelExecution.TestBase"/>
+      <class name="com.matryxsoft.website.matryxsoft.helloworld"/>
+      <class name="com.matryxsoft.website.matryxsoft.reRunFailedTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
