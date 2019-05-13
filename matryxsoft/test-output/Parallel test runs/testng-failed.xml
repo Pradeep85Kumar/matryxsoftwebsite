@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
-  <test name="T_02(failed)" parallel="tests">
-    <classes>
-      <class name="parallelExecution.Test04">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test04 -->
-      <class name="parallelExecution.Test01">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test01 -->
-      <class name="parallelExecution.Test03">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test03 -->
-      <class name="parallelExecution.Test02">
-        <methods>
-          <include name="setUp"/>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test02 -->
-      <class name="parallelExecution.Test05">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test05 -->
-    </classes>
-  </test> <!-- T_02(failed) -->
   <test name="T_01(failed)" parallel="tests">
     <classes>
       <class name="parallelExecution.Test04">
@@ -61,36 +31,6 @@
       </class> <!-- parallelExecution.Test05 -->
     </classes>
   </test> <!-- T_01(failed) -->
-  <test name="T_04(failed)" parallel="tests">
-    <classes>
-      <class name="parallelExecution.Test04">
-        <methods>
-          <include name="setUp"/>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test04 -->
-      <class name="parallelExecution.Test01">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test01 -->
-      <class name="parallelExecution.Test03">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test03 -->
-      <class name="parallelExecution.Test02">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test02 -->
-      <class name="parallelExecution.Test05">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- parallelExecution.Test05 -->
-    </classes>
-  </test> <!-- T_04(failed) -->
   <test name="T_03(failed)" parallel="tests">
     <classes>
       <class name="parallelExecution.Test04">
@@ -151,4 +91,64 @@
       </class> <!-- parallelExecution.Test05 -->
     </classes>
   </test> <!-- T_05(failed) -->
+  <test name="T_02(failed)" parallel="tests">
+    <classes>
+      <class name="parallelExecution.Test04">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test04 -->
+      <class name="parallelExecution.Test01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test01 -->
+      <class name="parallelExecution.Test03">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test03 -->
+      <class name="parallelExecution.Test02">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- parallelExecution.Test02 -->
+      <class name="parallelExecution.Test05">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test05 -->
+    </classes>
+  </test> <!-- T_02(failed) -->
+  <test name="T_04(failed)" parallel="tests">
+    <classes>
+      <class name="parallelExecution.Test04">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLink"/>
+        </methods>
+      </class> <!-- parallelExecution.Test04 -->
+      <class name="parallelExecution.Test01">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test01 -->
+      <class name="parallelExecution.Test03">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test03 -->
+      <class name="parallelExecution.Test02">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test02 -->
+      <class name="parallelExecution.Test05">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- parallelExecution.Test05 -->
+    </classes>
+  </test> <!-- T_04(failed) -->
 </suite> <!-- Failed suite [Parallel test runs] -->
