@@ -1,9 +1,7 @@
 package parallelExecution;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeMethod;
 import java.net.MalformedURLException;
 import java.net.URL;
- 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -23,7 +21,7 @@ public class TestBase {
         DesiredCapabilities dc = new DesiredCapabilities();
         FirefoxProfile fp = new FirefoxProfile();
         dc.setCapability(FirefoxDriver.PROFILE, fp);
-       // dc.setBrowserName(DesiredCapabilities.firefox().getBrowserName());
+        //dc.setBrowserName(DesiredCapabilities.firefox().getBrowserName());
         threadDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc));
     }
  

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="169" started-at="2019-05-03T08:18:30Z" finished-at="2019-05-03T08:18:30Z">
+  <suite name="Suite" duration-ms="493" started-at="2019-05-06T06:45:48Z" finished-at="2019-05-06T06:45:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="169" started-at="2019-05-03T08:18:30Z" finished-at="2019-05-03T08:18:30Z">
+    <test name="Test" duration-ms="493" started-at="2019-05-06T06:45:48Z" finished-at="2019-05-06T06:45:49Z">
       <class name="com.matryxsoft.website.matryxsoft.helloworld">
-        <test-method status="PASS" signature="MatryxsoftWebsite()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@2133c8f8]" name="MatryxsoftWebsite" duration-ms="7" started-at="2019-05-03T13:48:30Z" finished-at="2019-05-03T13:48:30Z">
+        <test-method status="PASS" signature="MatryxsoftWebsite()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@3d24753a]" name="MatryxsoftWebsite" duration-ms="8" started-at="2019-05-06T12:15:48Z" finished-at="2019-05-06T12:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MatryxsoftWebsite -->
-        <test-method status="FAIL" signature="MatryxsoftWebsite2()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@2133c8f8]" name="MatryxsoftWebsite2" duration-ms="1" started-at="2019-05-03T13:48:30Z" finished-at="2019-05-03T13:48:30Z">
+        <test-method status="FAIL" signature="MatryxsoftWebsite2()[pri:0, instance:com.matryxsoft.website.matryxsoft.helloworld@3d24753a]" name="MatryxsoftWebsite2" duration-ms="2" started-at="2019-05-06T12:15:48Z" finished-at="2019-05-06T12:15:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -62,7 +62,7 @@
         </test-method> <!-- MatryxsoftWebsite2 -->
       </class> <!-- com.matryxsoft.website.matryxsoft.helloworld -->
       <class name="com.matryxsoft.website.matryxsoft.reRunFailedTestNG">
-        <test-method status="PASS" signature="reRunFailedTests()[pri:0, instance:com.matryxsoft.website.matryxsoft.reRunFailedTestNG@5594a1b5]" name="reRunFailedTests" duration-ms="126" started-at="2019-05-03T13:48:30Z" finished-at="2019-05-03T13:48:30Z">
+        <test-method status="PASS" signature="reRunFailedTests()[pri:0, instance:com.matryxsoft.website.matryxsoft.reRunFailedTestNG@71be98f5]" name="reRunFailedTests" duration-ms="384" started-at="2019-05-06T12:15:48Z" finished-at="2019-05-06T12:15:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reRunFailedTests -->
