@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="testngparallel(failed)">
+  <test name="Test(failed)">
     <classes>
-      <class name="parallelExecution.Test05">
+      <class name="com.matryxsoft.website.matryxsoft.NavigatetoRequestForTrial">
         <methods>
-          <include name="testLink"/>
+          <include name="verifyAddDetailsToRFT"/>
         </methods>
-      </class> <!-- parallelExecution.Test05 -->
-      <class name="parallelExecution.Test03">
-        <methods>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test03 -->
-      <class name="parallelExecution.Test01">
-        <methods>
-          <include name="setUp"/>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test01 -->
-      <class name="parallelExecution.Test02">
-        <methods>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test02 -->
-      <class name="parallelExecution.Test04">
-        <methods>
-          <include name="testLink"/>
-        </methods>
-      </class> <!-- parallelExecution.Test04 -->
+      </class> <!-- com.matryxsoft.website.matryxsoft.NavigatetoRequestForTrial -->
     </classes>
-  </test> <!-- testngparallel(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

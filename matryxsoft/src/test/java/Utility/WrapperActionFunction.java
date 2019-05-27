@@ -776,4 +776,9 @@ public class WrapperActionFunction {
 		}
 	};
 
+	public void findElement(WebDriver driver, By linkText) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
