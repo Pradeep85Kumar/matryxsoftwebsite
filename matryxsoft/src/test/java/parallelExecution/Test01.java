@@ -12,7 +12,7 @@ public class Test01 extends TestBase{
  
     @Test
     public void testLink()throws Exception{
-        getDriver().get("http://facebook.com");
+        getDriver().get("https://facebook.com");
         Thread.sleep(5000);
         WebElement textBox = getDriver().findElement(By.xpath("//input[@value='Your Email']"));
         textBox.click();

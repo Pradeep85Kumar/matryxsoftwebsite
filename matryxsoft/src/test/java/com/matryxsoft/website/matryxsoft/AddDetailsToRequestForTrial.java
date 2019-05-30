@@ -14,10 +14,10 @@ public class AddDetailsToRequestForTrial
 	By contact = By.name("your-contact");
 	By company = By.name("your-company");
 	By message = By.name("your-message");
-	By submitBtn = By
-			.xpath("/html/body/div[1]/main/div/section/div/div/div/div/div/div/div[2]/div/code/form/p[3]/input");
+	By submitBtn = By.xpath("/html/body/div[1]/main/div/section/div/div/div/div/div/div/div[2]/div/code/form/p[3]/input");
 
-	public AddDetailsToRequestForTrial(WebDriver driver) {
+    public AddDetailsToRequestForTrial(WebDriver driver){
+		
 		this.driver = driver;
 	}
 
@@ -45,4 +45,7 @@ public class AddDetailsToRequestForTrial
 		driver.findElement(message).sendKeys(smessage);
 	}
 
-}
+	public void clicksubmitBtn(String submit) {
+		driver.findElement(submitBtn).click();
+	}
+} 
