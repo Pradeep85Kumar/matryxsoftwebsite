@@ -8,7 +8,7 @@
   
     
   <properties>
-  <suiteXmlFile>testng_Matryxsoft.xml</suiteXmlFile>
+  <suiteXmlFile>testng.xml</suiteXmlFile>
   <skipTests>false</skipTests>
   </properties>
   
