@@ -31,18 +31,18 @@ public class ExtentTestNGReportBuilder {
 
     @BeforeMethod
     public synchronized void beforeMethod(Method method) {
-       // ExtentTest child = parentTest.get().createNode(method.getName());
-       // logger.set(child);
+         ExtentTest child = ((ExtentTest) parentTest.get()).createNode(method.getName());
+            logger.set(child);
     }
 
     @AfterMethod
     public synchronized void afterMethod(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE)
-      //  	logger.get().fail(result.getThrowable());
-      //  else if (result.getStatus() == ITestResult.SKIP)
-        //	logger.get().skip(result.getThrowable());
-     //   else
-      //  	logger.get().pass("Test passed");
+           ((ExtentTest) logger.get()).fail(result.getThrowable());
+      else if (result.getStatus() == ITestResult.SKIP)
+       ((ExtentTest) logger.get()).skip(result.getThrowable());
+            else
+      ((ExtentTest) logger.get()).pass("Test passed");
 
         extent.flush();
     }

@@ -1,1 +1,6 @@
+com\matryxsoft\website\matryxsoft\reRunFailedTestNG.class
 com\matryxsoft\website\matryxsoft\helloworld.class
+parallelExecution\Test03.class
+parallelExecution\TestBase.class
+com\matryxsoft\website\matryxsoft\reRunMavenTest.class
+customreport\ExtentManager.class
