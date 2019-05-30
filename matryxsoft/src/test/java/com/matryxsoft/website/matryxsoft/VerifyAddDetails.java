@@ -14,7 +14,6 @@ import Utility.browserhelper;
 
 
 
-
 public class VerifyAddDetails
 {
 
@@ -22,10 +21,10 @@ public class VerifyAddDetails
 	public void checkfirstname()
 	{
 		WrapperActionFunction wo = new WrapperActionFunction();
-		
+
 		//This will launch browser and specific url
 		WebDriver driver= browserhelper.InvokeBrowser("firefox", "https://matryxsoft.com");
-		
+
 		//This will click on Contact
 		wo.waitInSeconds(10);
 		WebElement element = driver.findElement(By.linkText("Contact"));
@@ -35,14 +34,14 @@ public class VerifyAddDetails
 		action.moveToElement(element).build().perform();
 		driver.findElement(By.id("menu-item-440")).click();
 		wo.waitInSeconds(10);
-		
-		
+
+
 		//Created page object using page factory
 		MatryxsoftHomePage HomePage= PageFactory.initElements(driver, MatryxsoftHomePage.class);
-		
+
 		//call the method
 		HomePage.adddetails("Pradeep", "Kumar","pradeep@matryxsoft.com", "9886770376", "Matryxsoft Tech", "test123");
 	}
-	
-	
+
+
 }	
