@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.matryxsoft.website.matryxsoft.NavigatetoRequestForTrial">
+      <class name="com.matryxsoft.website.matryxsoft.VerifyAddDetails">
         <methods>
-          <include name="verifyAddDetailsToRFT"/>
+          <include name="checkfirstname"/>
         </methods>
-      </class> <!-- com.matryxsoft.website.matryxsoft.NavigatetoRequestForTrial -->
+      </class> <!-- com.matryxsoft.website.matryxsoft.VerifyAddDetails -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
